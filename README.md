@@ -1,5 +1,27 @@
 # Clique-Bait
 
+![image](https://user-images.githubusercontent.com/89623051/142978679-4188c022-a1bb-4ccc-9367-4f868417ab12.png)
+
+In this case study - you are required to support Danny’s vision and analyse his dataset and come up with creative solutions to calculate funnel fallout rates for the Clique Bait online store.
+
+Available Data
+For this case study there is a total of 5 datasets which you will need to combine to solve all of the questions.
+
+Clique Bait Tables
+Users
+Customers who visit the Clique Bait website are tagged via their cookie_id.
+
+![image](https://user-images.githubusercontent.com/89623051/142979260-77f5483a-08d8-4038-b67e-3ee382aac42e.png)
+
+![image](https://user-images.githubusercontent.com/89623051/142979305-dd5f8b0e-f820-43da-ae32-decb2a1f2ff1.png)
+
+![image](https://user-images.githubusercontent.com/89623051/142979346-853dbb53-cab6-4d5c-8e8b-34ad361c71bb.png)
+
+![image](https://user-images.githubusercontent.com/89623051/142979380-5fce4d4c-cddb-4d95-9596-7d570d12760e.png)
+
+![image](https://user-images.githubusercontent.com/89623051/142979411-eda38cf3-4649-460e-832b-f30f5474d37e.png)
+
+
 Digital Analysis
 
 Question 1 How many users are there?
