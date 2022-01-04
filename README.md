@@ -224,7 +224,7 @@ cte_combined_product_events AS (
     t1.product_category,
     t1.page_view,
     t1.cart_add,
-    CASE WHEN t2.visit_id IS NULL THEN 1 ELSE 0 END as purchase
+    CASE WHEN t2.visit_id IS NULL THEN 0 ELSE 1 END as purchase
   FROM cte_product_page_events AS t1
   LEFT JOIN cte_visit_purchase AS t2
     ON t1.visit_id = t2.visit_id
@@ -278,7 +278,7 @@ order by page_views desc, cart_adds desc, purchases desc
 ```sql
 SELECT
   product,
-   (round((purchases / cart_adds),2)) AS abandoned_likelihood
+   (round((abandoned / cart_adds),2)) AS abandoned_likelihood
 FROM product_info
 ORDER BY abandoned_likelihood DESC;
 ```
